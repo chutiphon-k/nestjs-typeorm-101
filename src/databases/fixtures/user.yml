@@ -1,0 +1,8 @@
+entity: UserEntity
+items:
+  user{1..10}:
+    displayName: '{{name.firstName}}'
+    username: '{{internet.userName}}'
+    password: '{{internet.password}}'
+    updatedAt: '{{date.past}}'
+    createdAt: '{{date.past}}'
